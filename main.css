@@ -1,10 +1,11 @@
-/*Use flexbox to: 
+/*
+Use flexbox to:
 1. Make the nav a row of buttons aligned to the left of the page
 2. Center the hero image inside of the red div
-3. Make the subsection images align in the center of the page in a row, with space around each element*/
-
-
-
+3. Make the capes/tights & sound effects images align in the center of the
+   page in a row, with space around each element. Images should wrap to a new
+   row if there's not enough room.
+*/
 
 
 
@@ -13,10 +14,13 @@
 /*You don't need to change this unless you want to*/
 body {
     background: yellow;
+    margin: 0;
+    padding: 0;
 }
 #nav{
     list-style: none;
     background: darkblue;
+    margin-top: 0px;
 }
 
 #nav li{
@@ -36,10 +40,9 @@ body {
 }
 
 h1, h2 {
-    padding: 20px 0 5px 0;
+    padding: 20px 10px 5px 10px;
     font-family: 'Shrikhand', cursive;
 }
-
 
 #gallery {
     background: red;
@@ -52,5 +55,4 @@ h1, h2 {
 .sub-section img {
     margin: 10px;
     border: darkblue solid 3px;
-    width: 13%;
 }
